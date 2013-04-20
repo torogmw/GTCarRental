@@ -1,0 +1,195 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.14.0" />
+		<meta name="keywords" content="Gesture Follower" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/imtr/opensearch_desc.php" title="IMTR (en)" />
+		<link rel="alternate" type="application/rss+xml" title="IMTR RSS Feed" href="http://imtr.ircam.fr/imtr/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="IMTR Atom Feed" href="http://imtr.ircam.fr/imtr/index.php?title=Special:RecentChanges&amp;feed=atom" />
+    <title>Gesture Follower - IMTR</title>
+    <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/imtr/skins/imtr/main.css"; /*]]>*/</style>
+    <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/css/common.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="/imtr/skins/common/commonPrint.css" />
+    <!--[if IE]><script type="text/javascript" src="/imtr/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		    <script type="text/javascript" src="/imtr/skins/common/wikibits.js"></script>
+                      <style>
+        <!--
+	 .editsection { display: none; }
+        -->
+      </style>
+      </head>
+  <body         >
+    <div id="globalWrapper">
+
+	<div class="portlet" id="p-logo">
+	  <a href="/imtr/IRCAM_Real-Time_Musical_Interactions"
+	    title="IRCAM Real-Time Musical Interactions"></a>
+	</div>
+
+													
+        <div class='portlet' id='p-nav' >
+	<ul><li> <a href="/imtr/Projects" title="Projects">Projects</a> 
+</li><li> <a href="/imtr/Software" title="Software">Software</a> 
+</li><li> <a href="/imtr/Publications" title="Publications">Publications</a> 
+</li><li> <a href="/imtr/People" title="People">People</a> 
+</li><li> <a href="http://www.ircam.fr/" class="external text" title="http://www.ircam.fr/" rel="nofollow">IRCAM</a>
+</li></ul>
+        </div>
+
+
+      <div id="column-content">
+	<div id="content">
+	  <a name="top" id="contentTop"></a>
+	  <!--  -->
+
+	  <h1 class="firstHeading">Gesture Follower</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">From IMTR</h3>
+	    <div id="contentSub"></div>
+	    
+	    <!-- start content -->
+	    <p><big>Real-time following and recognition of time profiles</big>
+</p>
+<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#Demos"><span class="tocnumber">1</span> <span class="toctext">Demos</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Basic_Example"><span class="tocnumber">1.1</span> <span class="toctext">Basic Example</span></a></li>
+<li class="toclevel-2"><a href="#Synchronizing_dance_and_videos"><span class="tocnumber">1.2</span> <span class="toctext">Synchronizing dance and videos</span></a></li>
+<li class="toclevel-2"><a href="#Mobile_phone_example"><span class="tocnumber">1.3</span> <span class="toctext">Mobile phone example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Principles"><span class="tocnumber">2</span> <span class="toctext">Principles</span></a></li>
+<li class="toclevel-1"><a href="#Software"><span class="tocnumber">3</span> <span class="toctext">Software</span></a></li>
+<li class="toclevel-1"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<p><br />
+</p>
+<a name="Demos" id="Demos"></a><h2> <span class="mw-headline"> Demos </span></h2>
+<a name="Basic_Example" id="Basic_Example"></a><h3> <span class="mw-headline"> Basic Example</span></h3>
+<table border="0" cellpadding="2" style="font-size:80%;">
+<tr>
+<td width="160" valign="top" align="left">
+</td><td width="400" valign="top">
+<object width="533" height="321"><param name="movie" value="http://www.youtube.com/v/2dSU8MeJlz4&amp;hl=en_US&amp;fs=1&amp;"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/2dSU8MeJlz4&amp;hl=en_US&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="533" height="321"></embed></object>
+
+</td></tr></table>
+<p>The Gesture Follower is a system for real-time following and recognition of time profiles.
+In this example the Gesture Follower learns three gestures, i.e drawings using the mouse, while we simultaneously record voice data.
+</p><p>During the "performance", the Gesture Follower recognizes which gesture is being performed, and plays the corresponding sound, time stretched or compressed depending on the pacing of the gesture.
+</p>
+<a name="Synchronizing_dance_and_videos" id="Synchronizing_dance_and_videos"></a><h3> <span class="mw-headline"> Synchronizing dance and videos </span></h3>
+<table border="0" cellpadding="2" style="font-size:80%;">
+<tr>
+<td width="30" valign="top" align="center">
+</td><td width="400" valign="top">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/8b2vQeV0SyI?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8b2vQeV0SyI?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+
+</td></tr></table>
+<p>The gesture follower is used to select and synchronize prerecorded videos, following the dancer gestures.
+It uses data from inertial sensors worn on the wrists of the dancer
+</p><p><br />
+</p>
+<a name="Mobile_phone_example" id="Mobile_phone_example"></a><h3> <span class="mw-headline"> Mobile phone example </span></h3>
+<table border="0" cellpadding="2" style="font-size:80%;">
+<tr>
+<td width="30" valign="top" align="center">
+</td><td width="400" valign="top">
+<object style="height: 385px; width: 480px"><param name="movie" value="http://www.youtube.com/v/5dIDpLPFFU4?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/5dIDpLPFFU4?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="480" height="385"></object>
+
+</td></tr></table>
+<p><br />
+The Gesture Follower is used in this example for real-time recognition of five pre-recorded gestures. 
+As soon as one of these gestures is recognized, a specific gesture-driven audio engine is enabled among the follows:
+</p><p><b>Grainstick</b>: based on the orientation of the phone, this audio engine selects the correlated segment of sound of an actual rainstick sample
+</p><p><b>Percussions</b>: percussion samples are triggered anytime a 'hit' is detected
+</p><p><b>Shaking</b>: this engine triggers with a fix tempo the portion of the loaded sound in which the intensity better corresponds to the energy of the gesture in that particular instant. 
+</p><p><b>Circle</b>: a sound loop is time-stretched based on the speed of the gesture. The speed is automatically detected by the Gesture Follower comparing the performance with the pre-recorded gesture.
+</p><p><b>Static positions</b>: An audio loop is played whenever the phone assumes a static position for a while.
+</p><p>Grainstick and Shaking audio engines take full advantage from the concatenative synthesis tools contained in the <a href="http://imtr.ircam.fr/imtr/MuBu" class="external text" title="http://imtr.ircam.fr/imtr/MuBu" rel="nofollow">MUBU</a> MaxMSP bundle.
+</p><p>Grainstick and Percussions sound samples by Pierre Jodlowski.
+</p>
+<a name="Principles" id="Principles"></a><h2> <span class="mw-headline"> Principles </span></h2>
+<p>The development of the gesture-follower is pursued with the general goal to compare in real-time a performed gesture with a set of prerecorded examples, using machine learning techniques.
+</p><p>In most standard gesture recognition systems, gestures are considered as units that must be recognized once completed. Therfore, these systems output results at discrete time events, typically at the end of each gesture. 
+</p><p>We work with a different paradigm towards for online gesture analysis, motivated by applications on expressive visuals and sound control: the recognizing system outputs "continuously" (i.e. on a fine temporal grain) parameters characterizing the performed gesture. These parameters are obtained by the online comparison with temporal shapes stored in a database. 
+</p><p>Precisely, two types of information are continuously updated. These are probabilistic estimations of 
+</p><p>1) the similarity of the performed gesture to prerecorded gestures (likelihood) and 
+</p><p>2) the time progression of the performed gesture. The first type of information allows for the selection the likeliest gesture at any moment and the second type of information allow for the estimation of the current temporal index inside the gesture, referred here as "gesture following". 
+</p><p>These continuous output data are especially well suited for both selecting and synchronizing various continuous visual or sound processes to gestures.
+</p>
+<a name="Software" id="Software"></a><h2> <span class="mw-headline"> Software </span></h2>
+<p>The <i>gesture follower</i> exists as software with different implémentation. A first <a href="http://ftm.ircam.fr/index.php/Gesture_Follower" class="external text" title="http://ftm.ircam.fr/index.php/Gesture_Follower" rel="nofollow">prototype</a> was implemented as Max patches.
+A max external called gf is available from the <a href="http://forumnet.ircam.fr/?L=1" class="external text" title="http://forumnet.ircam.fr/?L=1" rel="nofollow">Ircam Forum</a>. If you're are interested in betatesting, please contact us at gesturefollower at ircam dot fr
+</p><p><a href="/imtr/File:Gfhelp-screenshot.gif" class="image" title="Image:Gfhelp-screenshot.gif"><img alt="Image:Gfhelp-screenshot.gif" src="/imtr/images/Gfhelp-screenshot.gif" width="500" height="465" border="0" /></a>
+</p>
+<a name="References" id="References"></a><h2> <span class="mw-headline"> References </span></h2>
+<ul><li> Bevilacqua, F., Zamborlin, B., Sypniewski, A., Schnell, N., Guédy, F., Rasamimanana, N. <a href="http://articles.ircam.fr/textes/Bevilacqua09b/" class="external text" title="http://articles.ircam.fr/textes/Bevilacqua09b/" rel="nofollow">«&nbsp;Continuous realtime gesture following and recognition&nbsp;»</a>, accepted in Lecture Notes in Computer Science (LNCS), Gesture in Embodied Communication and Human-Computer Interaction, Springer Verlag. 2009
+</li><li> F. Bevilacqua, F. Guédy, N. Schnell, E. Fléty, N. Leroy, " <a href="http://mediatheque.ircam.fr/articles/textes/Bevilacqua07a" class="external text" title="http://mediatheque.ircam.fr/articles/textes/Bevilacqua07a" rel="nofollow">Wireless sensor interface and gesture-follower for music pedagogy</a>", Proc. of the International Conference of New Interfaces for Musical Expression (NIME 07), p 124-129, 2007
+</li><li> F. Bevilacqua, R. Muller «&nbsp;<a href="http://mediatheque.ircam.fr/articles/textes/Bevilacqua05b/" class="external text" title="http://mediatheque.ircam.fr/articles/textes/Bevilacqua05b/" rel="nofollow">A Gesture follower for performing arts</a>&nbsp;», Gesture Workshop, 2005
+</li><li> <a href="http://recherche.ircam.fr/equipes/temps-reel/movement/muller/" class="external text" title="http://recherche.ircam.fr/equipes/temps-reel/movement/muller/" rel="nofollow">Remy Muller</a>' s master dissertation, Ircam 2004 <a href="http://recherche.ircam.fr/equipes/temps-reel/movement/publications/muller-master.pdf" class="external text" title="http://recherche.ircam.fr/equipes/temps-reel/movement/publications/muller-master.pdf" rel="nofollow">pdf</a>.
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 18/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+Retrieved from "<a href="http://imtr.ircam.fr/imtr/Gesture_Follower">http://imtr.ircam.fr/imtr/Gesture_Follower</a>"</div>
+	    	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+
+	<!-- Users have to be logged in in order to access the actions menus-->
+	
+	<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-login"><a href="/imtr/index.php?title=Special:UserLogin&amp;returnto=Gesture_Follower">Log in</a></li>	    </ul>
+	  </div>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+
+	<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/imtr/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Go"
+	        />&nbsp;<input type='submit' name="fulltext"
+	        class="searchButton"
+	        value="Search" />
+	    </form>
+	  </div>
+	</div>
+
+        <!-- Users have tobe logged in to view this part -->
+	
+	      </div><!-- end of the column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+		<ul id="f-list">
+	  <li id="f-lastmod"> This page was last modified on 16 February 2011, at 19:11.</li>	  	  	  <a href="http://www.mediawiki.org/"><font color="#cccc00">Powered by MediaWiki</font></a>
+	</ul>
+      </div>
+    </div>
+    <!-- Served in 0.239 secs. -->  </body>
+</html>
